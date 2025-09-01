@@ -1,69 +1,61 @@
-# React + TypeScript + Vite
+# Cocktail Bar Website with GSAP Animations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and interactive cocktail bar website that showcases smooth animations using the GreenSock Animation Platform (GSAP).
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a modern, responsive website for a cocktail bar that leverages GSAP to create engaging user experiences. The animations help highlight featured drinks, display menu transitions, and create an overall premium feel.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML5
+- CSS3/SCSS
+- JavaScript
+- [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
+- Responsive design principles
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Animated hero section with parallax effects
+- Smooth scrolling animations
+- Interactive cocktail menu with animated transitions
+- Image galleries with GSAP-powered effects
+- Mobile-responsive design
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/yourusername/cocktail-bar-with-gsap.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+cd cocktail-bar-with-gsap
+```
+
+3. Open `index.html` in your browser or use a local server
+
+## Animation Highlights
+
+This project uses GSAP for various animations, including:
+
+- Staggered reveal effects for menu items
+- Smooth page transitions
+- Parallax scrolling effects
+- Interactive hover animations
+- Timeline-based sequence animations
+
+## Usage
+
+Modify the content in the HTML files to customize the cocktail menu, images, and text content. The GSAP animations can be adjusted in the JavaScript files to create different effects or timing.
+
+## Contributing
+
+Contributions are welcome! Feel free to open a pull request or submit an issue.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
