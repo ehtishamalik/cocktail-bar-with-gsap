@@ -65,7 +65,9 @@ const Contact = () => {
         <div>
           <h3>Contact Us</h3>
           <p>+92 (315) 2655111</p>
-          <a href="mailto:info@ehtishamalik.com">info@ehtishamalik.com</a>
+          <p>
+            <a href="mailto:info@ehtishamalik.com">info@ehtishamalik.com</a>
+          </p>
         </div>
 
         <div>
