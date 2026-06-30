@@ -86,6 +86,7 @@ const Contact = () => {
               <a
                 href={social.url}
                 key={social.name}
+                target="_parent"
                 rel="noopener noreferrer"
                 aria-label={social.name}
               >
